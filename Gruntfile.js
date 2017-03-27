@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 
   // configurable vars
   var port = grunt.option('port') || 8000;
-  var base = grunt.option('base') || '.';
+  var base = grunt.option('base') || 'www';
 
   // Project configuration
   grunt.initConfig({
