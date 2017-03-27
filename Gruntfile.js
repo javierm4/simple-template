@@ -25,13 +25,13 @@ module.exports = function(grunt) {
 
     watch: {
       js: {
-        files: [ 'js/**/*.js' ]
+        files: [ 'www/js/**/*.js' ]
       },
       css: {
-        files: [ 'css/**/*.css' ]
+        files: [ 'www/css/**/*.css' ]
       },
       html: {
-        files: [ '*.html']
+        files: [ 'www/*.html']
       },
       markdown: {
         files: [ '*.md' ]
@@ -46,8 +46,8 @@ module.exports = function(grunt) {
         jshintrc : '.jshintrc'
       },
       all : [
-        'js/**/*.js',
-        '!js/lib/**/*.js'
+        'www/js/**/*.js',
+        '!www/js/lib/**/*.js'
       ]
     }
   });
